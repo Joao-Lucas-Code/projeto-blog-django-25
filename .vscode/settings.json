@@ -1,0 +1,12 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 0.5,
+    "editor.fontSize": 18,
+    "editor.tabSize": 2,
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "C_Cpp.copilotHover": "disabled",
+    "github.copilot.chat.agent.autoFix": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+}
