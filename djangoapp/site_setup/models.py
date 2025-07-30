@@ -1,6 +1,6 @@
+from django.db import models
 from utils.images import resize_image
 from utils.model_validators import validate_png
-from django.db import models
 
 
 class MenuLink(models.Model):
@@ -13,12 +13,13 @@ class MenuLink(models.Model):
     new_tab = models.BooleanField(default=False)
     site_setup = models.ForeignKey(
         'SiteSetup', on_delete=models.CASCADE, blank=True, null=True,
-        default=None, related_name='menu',
+        default=None, related_name='menu'
     )
 
     def __str__(self):
         return self.text
-    
+
+
 class SiteSetup(models.Model):
     class Meta:
         verbose_name = 'Setup'
