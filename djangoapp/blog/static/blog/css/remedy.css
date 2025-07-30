@@ -35,9 +35,6 @@ links:
 
 category: global
 */
-html {
-  line-sizing: normal;
-}
 
 /* @docs
 label: Body Margins
@@ -152,7 +149,6 @@ iframe,
 embed,
 object {
   display: block;
-  vertical-align: middle;
   max-width: 100%;
 }
 audio:not([controls]) {
